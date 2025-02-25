@@ -3,7 +3,7 @@ import json
 import psycopg2
 
 # Connect to PostgreSQL
-conn = psycopg2.connect("dbname=etl_pipeline user=postgres password=komisan89 host=localhost port=5433")
+conn = psycopg2.connect("dbname=etl_pipeline user=postgres password=yourpassword host=localhost port=5433")
 cur = conn.cursor()
 
 # Kafka Consumer setup
