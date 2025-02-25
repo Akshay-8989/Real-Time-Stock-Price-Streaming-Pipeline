@@ -1,0 +1,30 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+env/
+*.env
+
+# Ignore logs and temp files
+logs/
+*.log
+
+# Ignore Kafka logs and temporary files
+kafka-logs/
+zookeeper/
+*.lock
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
