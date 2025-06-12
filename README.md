@@ -1,4 +1,4 @@
-## 🚀 Setup & Execution Guide (Conceptual)
+## 🚀 Setup & Execution Guide 
 
 To run this pipeline, you will need the following infrastructure services running:
 
