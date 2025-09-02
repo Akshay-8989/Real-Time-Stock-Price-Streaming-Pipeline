@@ -1,4 +1,3 @@
-# No changes needed from the previous dashboard code:
 
 import streamlit as st
 import psycopg2
@@ -112,5 +111,6 @@ while True:
                     st.info(f"No historical data available yet for {selected_symbol} (or not enough for analytics).")
         else:
             st.info("No stock data available yet. Ensure producer and consumer are running.")
+
 
     time.sleep(5)
