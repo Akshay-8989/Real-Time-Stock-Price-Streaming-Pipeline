@@ -1,4 +1,3 @@
-# No changes needed from the previous producer code:
 
 from kafka import KafkaProducer
 import json
@@ -48,3 +47,4 @@ while True:
             print(f"Error fetching or sending {stock}: {e}")
 
     time.sleep(60)
+
